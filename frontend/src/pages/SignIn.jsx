@@ -42,7 +42,7 @@ export default function SignIn() {
     } catch (error) {
       dispatch(signInFailure(error.message));
     }
-    console.log(data);
+    // console.log(data);
   };
 
   console.log(formData);
